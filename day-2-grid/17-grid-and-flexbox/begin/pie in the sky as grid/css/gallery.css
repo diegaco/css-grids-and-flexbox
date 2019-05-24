@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gallery {
+	margin: 0;
+	padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+figure {
+  margin: 0;
+}
+li {
+}
+.gallery img {
+  width: 100%;
+}
